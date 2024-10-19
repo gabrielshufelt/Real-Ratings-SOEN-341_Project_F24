@@ -127,16 +127,16 @@ team1.update!(
 
 evaluation1 = Evaluation.find_or_initialize_by(evaluator_id: student1.id)
 evaluation1.update!(
-  status: "completed", 
-  date_completed: "2022-09-21", 
+  status: "completed",
+  date_completed: "2022-09-21",
   project_id: project1.id,
   evaluator_id: student1.id,
   evaluatee_id: student2.id,
   team_id: team1.id,
-  cooperation_rating: 4.0, 
-  conceptual_rating: 4.0, 
-  practical_rating: 4.0, 
-  work_ethic_rating: 4.0, 
+  cooperation_rating: 4.0,
+  conceptual_rating: 4.0,
+  practical_rating: 4.0,
+  work_ethic_rating: 4.0,
   comment: "Great job!"
 )
 
