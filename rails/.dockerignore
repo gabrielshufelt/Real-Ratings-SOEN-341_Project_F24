@@ -1,0 +1,31 @@
+# Ignore git directory
+.git/
+
+# Ignore bundler config
+# .bundle
+
+# Ignore environment files (keep .env files)
+.env*
+!/.env*.erb
+
+# Ignore credentials files
+/config/master.key
+# /config/credentials/*.key
+
+# Ignore logs and temp files (keep .keep files)
+# log/*
+# tmp/*
+# !/log/.keep
+# !/tmp/.keep
+
+# Ignore storage (keep .keep files)
+# storage/*
+# !/storage/.keep
+
+# Do NOT ignore assets or node_modules needed for production
+# node_modules/ # Keep this commented out or remove if it's needed
+# assets/* # Uncomment if you have assets in your app that need to be included
+
+# Uncomment this if you want to keep certain build artifacts
+# public/assets # Make sure to keep assets that are built during the process
+
