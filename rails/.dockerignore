@@ -5,12 +5,12 @@
 # .bundle
 
 # Ignore environment files (keep .env files)
-.env*
-!/.env*.erb
+#.env*
+#!/.env*.erb
 
 # Ignore credentials files
 /config/master.key
-# /config/credentials/*.key
+#/config/credentials/*.key
 
 # Ignore logs and temp files (keep .keep files)
 # log/*

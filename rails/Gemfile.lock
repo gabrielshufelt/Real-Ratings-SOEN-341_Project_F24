@@ -421,7 +421,7 @@ DEPENDENCIES
   ostruct
   pg (>= 1.1)
   puma (>= 5.0)
-  rails (~> 7.1.4)
+  rails (= 7.1.4)
   rails_db
   rspec-rails (~> 7.0.0)
   rubocop
@@ -445,4 +445,3 @@ RUBY VERSION
 
 BUNDLED WITH
    2.5.18
-
